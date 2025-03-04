@@ -18,7 +18,7 @@ public class Romain {
     }
 
     public String getNom() {
-        return nom;        
+        return nom;       
     }
 
     public void recevoirCoup(int forceCoup) {
@@ -27,7 +27,7 @@ public class Romain {
         if (force > 0) {
             System.out.println("Le Romain " + nom + ": Aïe");
         } else {
-            force = 0;  // ✅ Correction : éviter les valeurs négatives
+            force = 0;  
             System.out.println("Le Romain " + nom + ": J'abandonne !");
         }
     } 
