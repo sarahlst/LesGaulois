@@ -23,12 +23,11 @@ public class Romain {
 
     public void recevoirCoup(int forceCoup) {
         force -= forceCoup;
-
         if (force > 0) {
-            System.out.println("Le Romain " + nom + ": Aïe");
+            System.out.println("Le Romain " + nom + " : \"Aïe\"");
         } else {
-            force = 0;  
-            System.out.println("Le Romain " + nom + ": J'abandonne !");
+            System.out.println("Le Romain " + nom + " : \"J'abandonne !\"");
         }
-    } 
+    }
+
 }
