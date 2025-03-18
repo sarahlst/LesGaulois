@@ -32,6 +32,7 @@ public class TestGaulois {
 
 		for (int i = 1; i <= 3; i++) {
 			asterix.frapper(brutus);
+			
 		}
 
 	}

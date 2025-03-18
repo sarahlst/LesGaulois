@@ -1,8 +1,9 @@
-package personnages;
+package objets;
 
 public class Chaudron {
 	private int quantitePotion = 0;
-	
+	private int doses ;
+	private int force ;
 	 
 	
 	
@@ -11,7 +12,8 @@ public class Chaudron {
 	}
 	
 	public void remplirChaudron(int doses,int force) {
-  this.quantitePotion = doses;
+         this.doses = doses;
+         this.force= force;
 	    
 	    
 		
@@ -20,4 +22,3 @@ public class Chaudron {
 	
 	
 }
-
