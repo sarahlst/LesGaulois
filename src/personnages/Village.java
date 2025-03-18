@@ -62,11 +62,12 @@ public class Village {
 		village.ajouterVillageois(obelix);
 		
 		Gaulois DoublePolemix = new Gaulois("DoublePolémix", 4);
-		village.ajouterVillageois(DoublePolemix);
+		
+		DoublePolemix.sePresenter();
 		
 		/*Gaulois gaulois = village.trouverVillageois(1);
 		System.out.println(gaulois.getNom());*/
-
+        System.out.println();
 		village.afficherVillageois();
 	}
 
